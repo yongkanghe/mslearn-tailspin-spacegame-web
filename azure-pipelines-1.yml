@@ -8,7 +8,7 @@ trigger:
 
 pool:
   name: pool3
-  vmImage: 'windows-latest'
+  vmImage: 'ubuntu-18.04'
 
 variables:
   solution: '**/*.sln'
